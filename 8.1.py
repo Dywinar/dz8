@@ -1,6 +1,6 @@
 def recusia_max(numbers):
   if len(numbers) == 1:
-    return numbers
+    return numbers [0]
   else:
       new_lst = recusia_max(numbers[1:])
       if numbers[0] > new_lst:
@@ -12,4 +12,4 @@ def recusia_max(numbers):
   
 
 print(recusia_max([1,2,3]))
-#только до этого додумался но все равно ошибка тип list нельзя сравнивать 
+
